@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatchMaker - Find Your Perfect Match</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f3f3;
+            text-align: center;
+        }
+        header {
+            background-color: #ff4d6d;
+            color: white;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #hero {
+            background: url('dating-bg.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 50px 20px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #ff4d6d;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        #signup form {
+            background: white;
+            padding: 20px;
+            max-width: 400px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        input, button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        button {
+            background-color: #ff4d6d;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MatchMaker</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <h2>Find Your Perfect Match Today</h2>
+        <p>Join thousands of happy couples who met through MatchMaker.</p>
+        <a href="#signup" class="btn">Get Started</a>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We use advanced matching algorithms to help you find your ideal partner.</p>
+    </section>
+    
+    <section id="features">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>Smart Matching System</li>
+            <li>Secure & Private</li>
+            <li>Millions of Happy Members</li>
+        </ul>
+    </section>
+    
+    <section id="signup">
+        <h2>Sign Up for Free</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Join Now</button>
+        </form>
+    </section>
+    
+    <section id="testimonials">
+        <h2>Success Stories</h2>
+        <p>"We found love on MatchMaker! Thank you for changing our lives." - Jane & John</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 MatchMaker. All rights reserved.</p>
+    </footer>
+</body>
+</html>
